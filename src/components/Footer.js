@@ -79,7 +79,7 @@ const Footer = () => {
           <img src={logo2} />
         </div>
         <h4 className=" flex justify-center text-gray-400  text-[12px] md:text-[16px] lg:text-[16px] mt-[16px] md:mt-[0px]">
-          © 2023 Alliancepay. All Rights Reserved.
+          © 2023 Mondu. All Rights Reserved.
         </h4>
 
         <div className=" md:w-[200px] sm:w-[300px] flex justify-between mt-[16px] md:mt-[0px] sm:mx-auto md:mx-[0px]">
