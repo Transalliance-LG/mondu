@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = ({ show, setShow }) => {
   return (
-    <div className="xl:px-[150px] 2xl:px-[250px] lg:px-[70px] px-[15px] md:px-[30px]">
+    <div className="xl:px-[150px] 2xl:px-[150px] lg:px-[70px] px-[15px] md:px-[30px]">
       <div className=" bg-white lg:py-[16px] py-[20px] flex justify-between items-center ">
         <div className="w-[153px]">
           <NavLink to="#">

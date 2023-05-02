@@ -7,7 +7,7 @@ import instagram from "../assets/instagram.png";
 
 const Footer = () => {
   return (
-    <div className="xl:px-[150px] 2xl:px-[250px] lg:px-[70px] px-[15px] md:px-[30px] py-[40px] bg-secondary">
+    <div className="xl:px-[150px] 2xl:px-[150px] lg:px-[70px] px-[15px] md:px-[30px] py-[40px] bg-secondary">
       <div
         className="lg:flex grid grid-cols-2 justify-between md:gap-[20px]
       lg:gap-[30px] xl:gap-[40px]"
