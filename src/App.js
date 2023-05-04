@@ -5,6 +5,7 @@ import PageRender from "./customRouter/PageRender";
 import Dashboard from "./pages/Dashboard";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Input from "./components/Input";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -22,7 +23,7 @@ function App() {
             <Route exact path="/" element={<Dashboard />} />
             <Route exact path="/:page" element={<PageRender />} />
           </Routes>
-
+          <Input />
           <Footer />
         </div>
       </div>
