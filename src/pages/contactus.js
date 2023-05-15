@@ -51,7 +51,6 @@ function ContactForm() {
             type="email"
             name="email"
             placeholder="Please input"
-            Required
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
